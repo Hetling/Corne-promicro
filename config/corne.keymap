@@ -63,12 +63,14 @@
     };
 
     behaviors {
-        hyper: hyper {
-            compatible = "zmk,behavior-mod-morph";
-            mods = <(MOD_LCTL | MOD_LSFT | MOD_LALT | MOD_LGUI)>;
-            bindings = <&none>;
-        };
+    hyper: hyper {
+        compatible = "zmk,behavior-mod-morph";
+        #binding-cells = <1>;
+        mods = <(MOD_LCTL | MOD_LSFT | MOD_LALT | MOD_LGUI)>;
+        bindings = <&none>;
     };
+};
+
 
     keymap {
         compatible = "zmk,keymap";
