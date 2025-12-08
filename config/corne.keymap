@@ -62,13 +62,6 @@
         };
     };
 
-    behaviors {
-        hyper: behavior-mod-morph {
-            compatible = "zmk,behavior-mod-morph";
-            bindings = <&kp LEFT_CTRL>, <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp LEFT_GUI>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
