@@ -62,6 +62,14 @@
         };
     };
 
+    behaviors {
+        hyper: hyper {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL | MOD_LSFT | MOD_LALT | MOD_LGUI)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -89,7 +97,7 @@
 
             bindings = <
 &sys_reset  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&kp LG(LS(LC(LALT)))   &trans  &trans    &trans    &trans     &trans       &trans   &trans  &trans  &trans  &kp UP  &trans
+&trans   &trans  &trans    &trans    &trans     &trans       &trans   &trans  &trans  &trans  &kp UP  &trans
 &trans      &trans  &trans  &trans  &trans  &trans       &trans   &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT
                               &trans    &trans     &kp SPACE    &kp SPACE  &trans        &trans
             >;
