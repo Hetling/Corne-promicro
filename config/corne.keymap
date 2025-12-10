@@ -61,7 +61,6 @@
             key-positions = <38 39>;
         };
     };
-    };
 
     keymap {
         compatible = "zmk,keymap";
