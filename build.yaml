@@ -21,10 +21,7 @@
 include:
   - board: promicro_nrf52840/nrf52840
     shield: corne_left
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
   - board: promicro_nrf52840/nrf52840
     shield: corne_right
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
   - board: promicro_nrf52840/nrf52840
     shield: settings_reset
-    cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
