@@ -19,9 +19,9 @@
 #
 ---
 include:
-  - board: promicro_nrf52840/nrf52840
+  - board: promicro_nrf52840/nrf52840/zmk
     shield: corne_left
-  - board: promicro_nrf52840/nrf52840
+  - board: promicro_nrf52840/nrf52840/zmk
     shield: corne_right
-  - board: promicro_nrf52840/nrf52840
+  - board: promicro_nrf52840/nrf52840/zmk
     shield: settings_reset
